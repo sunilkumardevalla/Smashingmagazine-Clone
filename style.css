@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
 }
+
 nav {
   display: flex;
   width: 100%;
@@ -38,7 +39,7 @@ nav div {
 .nav-links a,
 .nav-logo a {
   padding: 20px;
-  color:white;
+  color: white;
   text-decoration: none;
   font-size: 20px;
 }
@@ -59,7 +60,6 @@ nav div {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(7, 200px);
-
 }
 
 .main-one-grid {
@@ -85,6 +85,7 @@ nav div {
   grid-row: 5/span3;
   background-color: rgb(238, 28, 28);
 }
+
 .main-two {
   margin: 25px 0;
   display: grid;
@@ -94,9 +95,10 @@ nav div {
 }
 
 .main-two-grid {
-    border: 1px solid blue;
-    padding: 20px;
+  border: 1px solid blue;
+  padding: 20px;
 }
+
 /*
 .main-two-grid:hover {
   width: 350px;
@@ -114,12 +116,12 @@ nav div {
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
 }
+
 .main-three-grid {
   grid-column: 1/ 2;
   grid-row: 1/ 2;
   display: flex;
   flex-direction: column;
-
 }
 
 .main-three-grid1 {
@@ -207,30 +209,36 @@ nav div {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 40vh);
   grid-template-areas:
-  "column1 column2"
-  "column3 column4"
-  "column5 column6";
+    "column1 column2"
+    "column3 column4"
+    "column5 column6";
 }
+
 .main-seven-grid1 {
   grid-area: column1;
   background-color: yellow;
 }
+
 .main-seven-grid2 {
   grid-area: column2;
   background-color: yellow;
 }
+
 .main-seven-grid3 {
   grid-area: column3;
   background-color: yellow;
 }
+
 .main-seven-grid4 {
   grid-area: column4;
   background-color: yellow;
 }
+
 .main-seven-grid5 {
   grid-area: column5;
   background-color: yellow;
 }
+
 .main-seven-grid6 {
   grid-area: column6;
   background-color: yellow;
@@ -243,6 +251,7 @@ nav div {
   width: 25%;
   height: 25%;
 }
+
 .main-seven-text {
   float: right;
   border: 1px solid black;
@@ -268,14 +277,52 @@ nav div {
   background-color: blueviolet;
   border-radius: 10px;
 }
+
 .main-eight p {
   border: 1px solid black;
 }
+
 .main-eight .text {
   flex: 2;
 }
+
 .main-eight .img {
   flex: 1;
   margin-top: -5%;
   background-color: blueviolet;
+}
+
+.main-nine {
+  display: grid;
+  height: 150vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 2fr;
+  grid-gap: 20px;
+  margin: 50px;
+  row-gap: 40px;
+}
+
+.main-nine-top {
+  text-align: center;
+  background-color: rgb(36, 226, 226);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(204, 199, 199), -2px -2px 2px rgb(204, 199, 199);
+
+}
+
+.main-nine-bottom {
+  text-align: center;
+  background-color: rgb(17, 49, 49);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgb(204, 199, 199);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background-color: cornflowerblue;
 }

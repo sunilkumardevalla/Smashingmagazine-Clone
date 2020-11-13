@@ -1,0 +1,53 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: red;
+  align-items: center;
+  text-align: center;
+  padding-right: 25px;
+}
+nav div {
+  padding: 25px;
+}
+
+.nav-links {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.nav-logo {
+  width: 10%;
+}
+
+.search-bar {
+  width: 20%;
+  background-color: white;
+  border-color: transparent;
+  border-radius: 5px;
+  color: gray;
+  font-size: 20px;
+}
+
+.nav-links a,
+.nav-logo a {
+  padding: 20px;
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links a:hover {
+  background-color: gray;
+  border-radius: 5px;
+}
+.colored {
+  background-color: gray;
+  border-radius: 5px;
+}

@@ -146,7 +146,7 @@ nav div {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100%; 
+  width: 100%;
 }
 
 .main-four div {
@@ -181,6 +181,8 @@ nav div {
 .main-six {
   margin: 20px;
   padding: 20px;
+  border: 1px solid black;
+  height: 100px;
 }
 
 .main-six-img {
@@ -188,12 +190,92 @@ nav div {
   border: 1px solid black;
   padding-right: 20px;
   width: 25%;
-  height: 100px;
+  height: 100%;
 }
 
 .main-six-text {
   float: right;
   border: 1px solid black;
   width: 70%;
-  height: 100px;
+  height: 100%;
+}
+
+.main-seven {
+  margin: 50px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 40vh);
+  grid-template-areas:
+  "column1 column2"
+  "column3 column4"
+  "column5 column6";
+}
+.main-seven-grid1 {
+  grid-area: column1;
+  background-color: yellow;
+}
+.main-seven-grid2 {
+  grid-area: column2;
+  background-color: yellow;
+}
+.main-seven-grid3 {
+  grid-area: column3;
+  background-color: yellow;
+}
+.main-seven-grid4 {
+  grid-area: column4;
+  background-color: yellow;
+}
+.main-seven-grid5 {
+  grid-area: column5;
+  background-color: yellow;
+}
+.main-seven-grid6 {
+  grid-area: column6;
+  background-color: yellow;
+}
+
+.main-seven-img {
+  float: left;
+  border: 1px solid black;
+  padding-right: 20px;
+  width: 25%;
+  height: 25%;
+}
+.main-seven-text {
+  float: right;
+  border: 1px solid black;
+  width: 70%;
+  height: 100%;
+}
+
+.main-eight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.main-eight div {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  height: 65vh;
+  width: 100%;
+  background-color: blueviolet;
+  border-radius: 10px;
+}
+.main-eight p {
+  border: 1px solid black;
+}
+.main-eight .text {
+  flex: 2;
+}
+.main-eight .img {
+  flex: 1;
+  margin-top: -5%;
+  background-color: blueviolet;
 }

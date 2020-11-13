@@ -85,3 +85,22 @@ nav div {
   grid-row: 5/span3;
   background-color: rgb(238, 28, 28);
 }
+.main-two {
+  margin: 25px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 95vh;
+  background-color: pink;
+}
+
+.main-two-grid {
+    border: 1px solid blue;
+    padding: 20px;
+}
+/*
+.main-two-grid:hover {
+  width: 350px;
+  height: 350px;
+  border: 1px solid blue;
+}
+*/

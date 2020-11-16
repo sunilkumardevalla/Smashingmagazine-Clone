@@ -289,9 +289,6 @@ nav div {
   border-radius: 10px;
 }
 
-.main-eight p {
-  border: 1px solid black;
-}
 
 .main-eight .text {
   flex: 2;
@@ -301,6 +298,9 @@ nav div {
   flex: 1;
   margin-top: -5%;
   background-color: #363232;
+}
+.main-eight .img:hover {
+  margin-top: -2%;
 }
 
 .main-nine {

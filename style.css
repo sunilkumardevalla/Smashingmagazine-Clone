@@ -77,12 +77,14 @@ nav div {
   margin: 40px;
 }
 
-.main-one-top p {
+.main-one-top a {
   font-size: 30px;
   padding: 15px;
   background-color: white;
   margin: 0;
   width: fit-content;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .main-one-right {
@@ -95,12 +97,14 @@ nav div {
   margin: 40px;
 }
 
-.main-one-right p {
+.main-one-right a {
   font-size: 30px;
   padding: 15px;
   background-color: white;
   margin: 0;
   width: fit-content;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
 
 .main-one-grid {
@@ -110,14 +114,18 @@ nav div {
 }
 
 .main-one-grid div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 200px 50px;
 }
-.main-one-grid p {
-  grid-row: 2/3;
-  grid-column: 1/4;
+
+.main-one-grid a {
   color: white;
   font-size: 45px;
   font-weight: bold;
+  text-decoration: none;
+  padding: 30px 0;
 }
 
 .main-one-grid1 {
@@ -125,15 +133,20 @@ nav div {
   grid-row: 1/span4;
   background-color: #363030;
 }
+
 .main-one-grid1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 200px 50px;
 }
-.main-one-grid1 p {
-  grid-row: 2/3;
-  grid-column: 1/4;
+
+.main-one-grid1 a {
   color: white;
   font-size: 45px;
   font-weight: bold;
+  text-decoration: none;
+  padding: 30px 0;
 }
 
 .main-one-grid2 {
@@ -142,12 +155,19 @@ nav div {
   background-color: #292626;
   padding: 120px 50px;
 }
-.main-one-grid2 p {
-  grid-row: 2/3;
-  grid-column: 1/4;
+
+.main-one-grid2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-one-grid2 a {
   color: white;
   font-size: 45px;
   font-weight: bold;
+  text-decoration: none;
+  padding: 30px 0;
 }
 
 .main-one-grid3 {
@@ -156,12 +176,19 @@ nav div {
   background-color: #302d2d;
   padding: 120px 50px;
 }
-.main-one-grid3 p {
-  grid-row: 2/3;
-  grid-column: 1/4;
+
+.main-one-grid3 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-one-grid3 a {
   color: white;
   font-size: 45px;
   font-weight: bold;
+  text-decoration: none;
+  padding: 30px 0;
 }
 
 .main-two {
@@ -179,11 +206,13 @@ nav div {
   align-items: center;
 }
 
-.main-two-grid p {
+.main-two-grid a {
   text-align: center;
   align-self: center;
   font-size: 45px;
   font-weight: bold;
+  color: rgb(36, 33, 33);
+  text-decoration: none;
 }
 
 .main-two-grid:hover {
@@ -218,19 +247,27 @@ nav div {
   align-items: center;
 }
 
-.main-three-grid1 div{
+.main-three-grid1 div a {
   font-size: 35px;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  text-decoration: none;
+  margin: 150px 0;
+  font-size: 45px;
 }
 
 .text-div {
   text-align: center;
   padding: 15px;
   font-style: italic;
+}
+
+.text-div a {
+  color: #1f1d1d;
+  text-decoration: none;
 }
 
 .box-div {
@@ -245,6 +282,11 @@ nav div {
   font-weight: bold;
 }
 
+.box-div a {
+  color: #262424;
+  text-decoration: none;
+}
+
 .main-four {
   display: flex;
   flex-direction: column;
@@ -255,16 +297,34 @@ nav div {
 }
 
 .main-four div {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   height: 80vh;
   width: 90%;
   background-color: #363232;
   border-radius: 10px;
+  color: white;
+  font-size: 35px;
+}
+
+.main-four a {
+  text-decoration: none;
+  color: white;
+  font-size: 45px;
 }
 
 .text-article {
   text-align: center;
   padding: 30px 0;
+}
+
+.text-article a {
+  color: #1f1d1d;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
 .main-five {
@@ -278,6 +338,9 @@ nav div {
 }
 
 .main-five div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   text-align: center;
   height: 120vh;
   width: 100%;
@@ -285,27 +348,49 @@ nav div {
   border-radius: 10px;
 }
 
-.main-six {
+.main-five a {
+ color: white;
+ font-size: 45px;
+ text-decoration: none;
+}
 
+.main-six {
   padding: 40px;
-  border: 1px solid black;
   height: 100px;
-  background-color: white;
+  background-color: rgb(173, 173, 173);
 }
 
 .main-six-img {
   float: left;
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-right: 20px;
   width: 25%;
   height: 100%;
+  text-align: center;
+}
+
+.main-six-img a {
+  color: #1f1d1d;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 .main-six-text {
   float: right;
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 70%;
   height: 100%;
+}
+
+.main-six-text a {
+  color: #1f1d1d;
+  text-decoration: none;
+  font-size: 30px;
+
 }
 
 .main-seven {

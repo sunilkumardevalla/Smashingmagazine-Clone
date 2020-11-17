@@ -27,9 +27,9 @@ This project aims to create a Heat Map of the page SmashingMagazine.com, The pag
 
 👤 **Sunil Devalla**
 
-- GitHub: [@DsunilK](https://github.com/DsunilK)
+- GitHub: [@DsunilK](https://github.com/DsunilK/)
 - Linkedin: [@DsunilK](https://www.linkedin.com/in/dsunilk/)
-- Twiter: [@DsunilK](https://twitter.com/Sunil_Devalla)
+- Twiter: [@DSunil_Devalla](https://twitter.com/Sunil_Devalla/)
 
 ## 🤝 Contributing
 

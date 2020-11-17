@@ -4,6 +4,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.br-5 {
+   border-radius: 5px;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
 nav {
   display: flex;
   width: 100%;
@@ -15,13 +23,13 @@ nav {
   font-weight: bold;
 }
 
-nav div {
+nav div,
+nav ul {
   padding: 25px;
 }
 
 .colored {
   background-color: #1f1d1d;
-  border-radius: 5px;
 }
 
 .nav-links {
@@ -39,7 +47,6 @@ nav div {
   width: 20%;
   background-color: white;
   border-color: transparent;
-  border-radius: 5px;
   color: gray;
   font-size: 20px;
   margin-right: 50px;
@@ -167,7 +174,6 @@ nav div {
   background-color: white;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,7 +267,6 @@ nav div {
   grid-column: 2/ 4;
   grid-row: 1/ 3;
   background-color: #363232;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,7 +296,6 @@ nav div {
   height: 80vh;
   width: 90%;
   background-color: #363232;
-  border-radius: 10px;
   color: white;
   font-size: 35px;
 }
@@ -333,7 +337,6 @@ nav div {
   height: 120vh;
   width: 100%;
   background-color: #403f4a;
-  border-radius: 10px;
 }
 
 .main-five a {
@@ -361,9 +364,11 @@ nav div {
 }
 
 .main-six-img a {
-  color: #1f1d1d;
+  padding: 30px;
+  background-color: #635f5f;
+  color: white;
+  font-size: 40px;
   text-decoration: none;
-  font-size: 30px;
 }
 
 .main-six-text {
@@ -376,9 +381,11 @@ nav div {
 }
 
 .main-six-text a {
-  color: #1f1d1d;
+  padding: 30px 250px;
+  background-color: #635f5f;
+  color: white;
+  font-size: 40px;
   text-decoration: none;
-  font-size: 30px;
 }
 
 .main-seven {
@@ -438,7 +445,6 @@ nav div {
 
 .main-seven-img a {
   padding: 20px;
-  border-radius: 5px;
   background-color: #635f5f;
   color: white;
   font-size: 30px;
@@ -456,7 +462,6 @@ nav div {
 
 .main-seven-text a {
   padding: 100px 150px;
-  border-radius: 5px;
   background-color: #635f5f;
   color: white;
   font-size: 45px;
@@ -495,7 +500,6 @@ nav div {
   height: 65vh;
   width: 100%;
   background-color: #363232;
-  border-radius: 10px;
 }
 
 .main-eight .text {
@@ -535,7 +539,6 @@ nav div {
   justify-content: space-around;
   align-items: center;
   background-color: white;
-  border-radius: 10px;
   box-shadow: 2px 2px 2px rgb(204, 199, 199), -2px -2px 2px rgb(204, 199, 199);
 }
 
@@ -545,7 +548,6 @@ nav div {
   text-decoration: none;
   padding: 30px;
   font-size: 35px;
-  border-radius: 10px;
 }
 
 .main-nine-bottom {
@@ -554,7 +556,6 @@ nav div {
   justify-content: space-around;
   align-items: center;
   background-color: #403f4a;
-  border-radius: 10px;
   box-shadow: 2px 2px 2px rgb(204, 199, 199);
 }
 
@@ -564,7 +565,6 @@ nav div {
   text-decoration: none;
   padding: 30px;
   font-size: 35px;
-  border-radius: 10px;
 }
 
 footer {
@@ -585,14 +585,15 @@ footer {
   justify-content: space-around;
 }
 
-.footer-one a {
+.footer-one li {
   background-color: white;
-  color: #403f4a;
-  text-decoration: none;
   padding: 30px;
   font-size: 25px;
-  border-radius: 10px;
   font-weight: bold;
+}
+.footer-one a {
+  color: #403f4a;
+  text-decoration: none;
 }
 
 .footer-two {
@@ -601,7 +602,6 @@ footer {
   text-decoration: none;
   padding: 30px;
   font-size: 45px;
-  border-radius: 10px;
   font-weight: bold;
 }
 
@@ -610,6 +610,11 @@ footer {
   display: flex;
   justify-content: space-around;
 }
+.footer-three-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
 
 .footer-three a {
   background-color: white;
@@ -617,7 +622,6 @@ footer {
   text-decoration: none;
   padding: 30px;
   font-size: 25px;
-  border-radius: 10px;
   font-weight: bold;
 }
 

@@ -5,7 +5,7 @@ body {
 }
 
 .br-5 {
-   border-radius: 5px;
+  border-radius: 5px;
 }
 
 .br-10 {
@@ -591,6 +591,7 @@ footer {
   font-size: 25px;
   font-weight: bold;
 }
+
 .footer-one a {
   color: #403f4a;
   text-decoration: none;
@@ -610,6 +611,7 @@ footer {
   display: flex;
   justify-content: space-around;
 }
+
 .footer-three-links {
   display: flex;
   justify-content: space-around;

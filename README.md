@@ -5,7 +5,7 @@ This project aims to create a Heat Map of the page SmashingMagazine.com, The pag
 
 
 
-![screenshot](./assets/ScreenShot.png/)
+![screenshot](./assets/ScreenShot.png)
  
 ## Built With
 

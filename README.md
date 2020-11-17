@@ -5,7 +5,7 @@ This project aims to create a Heat Map of the page SmashingMagazine.com, The pag
 
 
 
-![screenshot](./assets/ScreenShot.png)
+![screenshot](./assets/ScreenShot.png/)
  
 ## Built With
 
@@ -16,7 +16,7 @@ This project aims to create a Heat Map of the page SmashingMagazine.com, The pag
 
 ## Live Demo
 
-[Live Demo Link](https://angelacuahutle.github.io/Cloning_Apple/)
+[Live Demo Link](https://dsunilk.github.io/Smashingmagazine-Clone/.)
 
 👤 **Mar y Sol Bautista**
 
@@ -35,7 +35,7 @@ This project aims to create a Heat Map of the page SmashingMagazine.com, The pag
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/angelacuahutle/Cloning_Apple/issues).
+Feel free to check the [issues page](https://github.com/DsunilK/Smashingmagazine-Clone/issues/).
 
 ## Show your support
 
